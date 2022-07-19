@@ -1,0 +1,6 @@
+{
+    "port": 9999,
+    "hostName" : "dev.walmart.com",
+    "logfilePath": "logs.log"
+  }
+  
