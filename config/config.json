@@ -1,6 +1,6 @@
 {
     "port": 9999,
-    "hostName" : "dev.walmart.com",
+    "hostName" : "gauri-golang-chat",
     "logfilePath": "logs.log"
   }
   
