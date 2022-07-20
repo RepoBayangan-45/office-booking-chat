@@ -8,6 +8,7 @@ import (
 	"office-booking-chat/config"
 	"os"
 	"strconv"
+	// "github.com/rs/cors"
 )
 
 var configuration config.Configuration
@@ -36,6 +37,11 @@ func main() {
 
 	http.ListenAndServe(serverHostName, nil)
 
+	// c := cors.New(cors.Options{
+	// 	AllowedOrigins:   []string{"https://*", "http://*"},
+	// 	AllowedMethods:   []string{"GET", "PUT", "OPTIONS", "POST", "DELETE"},
+	// 	AllowCredentials: true,
+	// })
 }
 
 func handleHomePage(responseWriter http.ResponseWriter, request *http.Request) {
